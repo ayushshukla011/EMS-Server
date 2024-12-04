@@ -14,7 +14,7 @@ app.use(Cors);
 
 
 
-app.use("/api", routes);
+app.use("/api", routes)
 
 
 app.listen(PORT, () => {
